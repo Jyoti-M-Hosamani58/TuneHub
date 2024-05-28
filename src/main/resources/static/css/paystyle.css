@@ -1,0 +1,21 @@
+body{
+	background-image: url(music17.png);
+	background-size: cover;
+}
+.buy-button {
+  /*background-color: DarkOrchid;*/
+  background-color:rgb(60, 60, 60);
+  color: white;
+  font-size:20px;
+  font-style:bold;
+  padding: 10px 15px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+  opacity: 0.9;
+}
+
+.buy-button:hover {
+  opacity:1;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" th:href="@{/css/regstyle.css}">
+</head>
+<body>
+	<form action="registration" method="post" >
+		<h3 style="font-size:70px;text-align: center "> Registration</h3>
+		<label> User Name : </label> <input type="text" name="username" />
+		<br />
+		<br /> 
+		<label> Email : </label> <input type="email" name="email" />
+		<br />
+		<br /> 
+		<label> Password : </label>  <input type="password" name="password" />
+		<br /> 
+		<br /> 
+		<label> Gender : </label> 
+		 <input type="radio" name="gender" value="male" /><label>M</label>
+		 <input type="radio" name="gender" value="female" /><label>F</label>  
+		 <input type="radio" name="gender" value="other" /> <label>O</label>
+		<br />
+		<br />
+		
+		<label> Role : </label> 
+		
+		 <input type="radio" name="role" value="admin" /> <label> Admin</label> 
+		 <input type="radio" name="role" value="customer" /> <label> Customer</label>  
+		<br />
+		<br />
+		<label> Address :</label> <textarea name="address"> </textarea> 
+		<br /> 
+		<br />
+
+		<input type="submit" class="registerbtn"/>
+	</form>
+
+</body>
+</html>
